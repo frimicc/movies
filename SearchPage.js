@@ -39,8 +39,7 @@ export default class SearchPage extends Component<{}> {
 
     _handleResponse = (response) => {
         this.setState({ isLoading: false, message: '' });
-        // console.log('Results found: ' + response.results.length);
-        console.log('Results: ' + response);
+        console.log('Found ' + response.results.length + ' of ' + response.total_results + '.');
         this.props.navigator.push({
             title: 'Results',
             component: SearchResults,
