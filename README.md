@@ -13,4 +13,11 @@ Be sure to run `npm install` after cloning the repo.
 7. `open ios/Movies.xcodeproj`
 8. Build and Run.
 
+## Notes for Testing
+
+If you run using the newest iPhone devices, React Native throws warnings about invalid screen size. I assume
+they'll update to include these soon.
+
+You'll need to allow `node` to accept incoming network connections. That's the way the simulator with Watchman
+works.
 
