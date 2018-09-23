@@ -21,3 +21,6 @@ they'll update to include these soon.
 You'll need to allow `node` to accept incoming network connections. That's the way the simulator with Watchman
 works.
 
+## Notes for Developers
+
+This is my first React Native app. It follows the structure of the [Ray Wenderlich tutorial](https://www.raywenderlich.com/485-react-native-tutorial-building-ios-apps-with-javascript) pretty closely. It took about 3 hours to go through the tutorial and another 2.5 hours to replicate/adapt it to TMDb. It's not fancy, but it works pretty well.
