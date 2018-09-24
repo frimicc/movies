@@ -12,6 +12,7 @@ Movie listings provided by [The Movie Database API](https://www.themoviedb.org/d
 If I had time, I'd fix/add the following, but I needed to get somethign working in about 4 hours.
 
 * Master-Detail views.
+* Paging. Currently only the first page of results, up to 20 items, is shown.
 * Animations.
 * Change the search box to be at the top of the results list instead of a separate page.
 * Add an icon.
